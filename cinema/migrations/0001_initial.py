@@ -78,7 +78,7 @@ class Migration(migrations.Migration):
                 (
                     "image",
                     models.ImageField(
-                        null=True, upload_to=cinema.models.movie_image_file_path
+                        null=True, upload_to="cinema.models.movie_image_file_path"
                     ),
                 ),
             ],
